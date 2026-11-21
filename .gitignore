@@ -1,0 +1,30 @@
+# Secrets and environment
+.env
+.env.*
+*.env
+*.key
+*.pem
+*.p12
+*.keystore
+secrets/
+gluapi*
+
+# Production internals — never commit
+raw/
+tools/
+**/raw/
+**/tools/
+
+# Full audio masters and chapter files belong on the GitHub Release, not in git
+*audiobook_full*.mp3
+*part2.mp3
+teesri_pukar_part2.mp3
+chapters/
+chapters_v2/
+
+# System
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+.venv/
